@@ -22,4 +22,6 @@ html {
     position: relative;/*Se mantendran en el flujo*/
     width: 41px; 
     height: 175px;
+    margin: 2px;
+    float: left;/*El elemento flota a la izquierda de su contenedor y el texto y otros elementos fluyen alrededor de él por la derecha.*/
 }
