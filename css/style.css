@@ -4,3 +4,8 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;/*Heredando para elementos internos*/
 }
+#piano {
+    background-color: #00471b;
+    width: 992px;
+    height: 290px;
+}
