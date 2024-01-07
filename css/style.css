@@ -25,3 +25,7 @@ html {
     margin: 2px;
     float: left;/*El elemento flota a la izquierda de su contenedor y el texto y otros elementos fluyen alrededor de él por la derecha.*/
 }
+.key.black--key::after {
+    content: "";/*propiedad de contenido en una cadena vacía "" garantizará que el elemento se represente en la página mientras aún esté vacío.*/
+    background-color: #1d1e22;
+}
