@@ -28,4 +28,6 @@ html {
 .key.black--key::after {
     content: "";/*propiedad de contenido en una cadena vacía "" garantizará que el elemento se represente en la página mientras aún esté vacío.*/
     background-color: #1d1e22;
+    position: absolute;
+    left: -18px;
 }
