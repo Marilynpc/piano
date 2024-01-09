@@ -42,3 +42,13 @@ html {
     position: absolute;
     top: 23px;
 }
+/*MediaQueries - Breackpoints
+Las consultas de medios se usan comúnmente para aplicar CSS de forma condicional
+según el ancho de la ventana gráfica usando las propiedades de ancho máximo y ancho mínimo.
+*/
+@media (max-width: 768px) {/*hasta este ancho maximo o por debajo*/
+    #piano {
+        width: 358px;
+        background-color: pink;
+    }
+}
