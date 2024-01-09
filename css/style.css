@@ -53,4 +53,7 @@ según el ancho de la ventana gráfica usando las propiedades de ancho máximo y
     .keys {
         width: 318px;
     }
+    .logo {
+        width: 150px;
+    }
 }
