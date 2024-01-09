@@ -49,6 +49,8 @@ según el ancho de la ventana gráfica usando las propiedades de ancho máximo y
 @media (max-width: 768px) {/*hasta este ancho maximo o por debajo*/
     #piano {
         width: 358px;
-        background-color: pink;
+    }
+    .keys {
+        width: 318px;
     }
 }
