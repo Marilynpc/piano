@@ -60,5 +60,10 @@ según el ancho de la ventana gráfica usando las propiedades de ancho máximo y
 }
 /*El operador lógico AND se utiliza para consultar dos condiciones de medios.*/
 @media (min-width: 769px) and (max-width: 1199px) {/*si la ventana del navegador tiene más de 769 px pero menos de 1199 px.*/
-    
+    #piano {
+        width: 675px;
+    }
+    .keys {
+        width: 633px;
+    }
 }
